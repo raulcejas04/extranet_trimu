@@ -1,0 +1,1000 @@
+  235  more listar_medios_pago.sh 
+  236  more medios_pagos_listar.sh
+  237  more rep_bajar.sh
+  238  more rep_cons.sh
+  239  more ver_usuarios.sh 
+  240  vi todas_transacciones.sh 
+  241  ./todas_transacciones
+  242  ./todas_transacciones.sh
+  243  node -v
+  244  npm -v
+  245  nvm u
+  246  npm -v
+  247  npm install -g npm@v6.9.0
+  248  npm -v
+  249  npm use v6.9.0
+  250  npm use 6.9.0
+  251  nvm ls
+  252  node -v
+  253  npm install -g @angular/cli@8
+  254  ng -v
+  255  cd ..
+  256  cd profesional/
+  257  cd angular
+  258  ls -l
+  259  ng new angular8-crud
+  260  ls -l
+  261  ng new angular8-crud
+  262  npm use 10.9
+  263  node -v
+  264  nvm ls
+  265  npm use 10.13
+  266  ng new angular8-crud
+  267  node -v
+  268  sudo npm cache clean -f
+  269  sudo npm install -g n
+  270  sudo n 10.9
+  271  node -v
+  272  nvm use 10.9
+  273  nvm use v10.9
+  274  node -v
+  275  nvm -ls
+  276  nvm ls
+  277  sudo npm install -g n 10.9
+  278  sudo npm install -g n 10.15.1
+  279  sudo npm install -g 10.15.1
+  280  sudo n 10.15.1
+  281  node -v
+  282  sudo npm install -g n use 10.15.1
+  283  npm ls
+  284  sudo npm ls
+  285  sudo npm install -g n use 10.15.1
+  286  n use 10.15.1
+  287  node -v
+  288  n ls
+  289  sudo n 10.15.1
+  290  node -v
+  291  node --version
+  292  sudo n ls
+  293  nvm use 10.15.1
+  294  node -v
+  295  nvm install 10.15.1
+  296  node -v
+  297  ng new angular8-crud
+  298  ls -l
+  299  cd angular9
+  300  cd angular8
+  301  ls -l
+  302  cd ..
+  303  ls -l
+  304  cd angular8
+  305  ls -l
+  306  ng new angular8-crud
+  307  ls -l
+  308  cd angular8-crud
+  309  ng serve
+  310  ng build --prod
+  311  exit
+  312  cd /opt/ivm4200/Linux/
+  313  ./iVMS-4200 
+  314  sudo systemctl start apache2
+  315  cd
+  316  cd /pendrive
+  317  ls -l
+  318  sudo ./php_7.2
+  319  cd /log
+  320  cd /tmp
+  321  ls -l|grep raul
+  322  ls -l|grep debug
+  323  cd /pendrive/www/SIS/intranet/
+  324  find . -name "funciones_ws.php" -print
+  325  cd /opt/ivm4200/Linux/
+  326  ./iVMS-4200 
+  327  df -l
+  328  sudo umount /media/raul/WD
+  329  sudo mount /dev/sdc1 /pendrive
+  330  cd /pendrive/profesional/angular/
+  331  ls -l
+  332  cd Angular-9-CRUD-Tutorial/
+  333  ls -l
+  334  vi readme.mio.txt
+  335  cd ..
+  336  vi proyectos_q_estudie.txt
+  337  cd /opt/sqldeveloper/
+  338  ./sqldeveloper.sh
+  339  exit
+  340  cd /etc/apache2
+  341  cd sites-available/
+  342  ls -l
+  343  vi 001-trimu-intra.conf
+  344  vi 001-trimu_intra.conf 
+  345  vi 001-trimu_extra.conf 
+  346  vi 001-trimu_boleta.conf
+  347  ls -l /tmp/deb*
+  348  sudo vi /etc/systemd/system/multi-user.target.wants/apache2.service
+  349  sudo systemctl restart apache2
+  350  sudo systemctl reload apache2
+  351  sudo systemctl daemon-reload
+  352  sudo systemctl restart apache2
+  353  ls -l /tmp/deb*
+  354  vi -l /tmp/deb*
+  355  exit
+  356  cd 
+  357  ./tunel.sh 
+  358  cd /pendrive/www/qr
+  359  cd /pendrive/www/QR
+  360  cd /pendrive/www
+  361  df -l
+  362  sudo umoun /media/raul/WD
+  363  sudo umount /media/raul/WD
+  364  sudo mount /dev/sdc1 /pendrive
+  365  cd /pendrive/www/qr
+  366  ls -l
+  367  more paso1.php
+  368  vi paso1.php
+  369  grep store *
+  370  ls -l|more
+  371  vi obtener_sucursales.sh 
+  372  ./obtener_sucursales.sh 
+  373  mv obtener_sucursales.sh obtener_stores.sh
+  374  ls -l|grep cajas
+  375  vi obtener_cajas.sh
+  376  vi cajas_humano.json
+  377  ls -l
+  378  vi cajas_humano.json 
+  379  ls -l|grep qr
+  380  vi crear_orden_qr.sh
+  381  vi cajas_humano.json
+  382  vi crear_orden_qr.sh
+  383  ./crear_orden_qr.sh
+  384  sudo chmod ugo+rx ./crear_orden_qr.sh
+  385  ./crear_orden_qr.sh
+  386  vi crear_orden_qr.sh
+  387  ./crear_orden_qr.sh
+  388  exit
+  389  cd /opt/ivm4200/Linux/
+  390  ./iVMS-4200 
+  391  sudo systemctl start apache2
+  392  curl -X POST -H "Content-Type: application/json" -d '{"name": "John"}' https://hookb.in/Oegqp3MnprUnzzlkeDEe
+  393  ls -l |grep pago
+  394  cd /pendrive/www/qr
+  395  ls -l |grep pago
+  396  ls -l
+  397  vi paso2_v3.sh
+  398  clear
+  399  vi paso2_v3.sh
+  400  ./paso2_v3.sh
+  401  sudo chmod ugo+rx ./paso2_v3.sh
+  402  ./paso2_v3.sh
+  403  ls -l|grep paso2
+  404  rm paso2_v2.sh
+  405  ls -l|grep orden
+  406  vi obtener_orden.sh
+  407  vi paso2_v2.sh
+  408  vi paso2_v3.sh
+  409  vi obtener_orden.sh
+  410  sudo chmod ugo+rx obtener_orden.sh
+  411  ./obtener_orden.sh 
+  412  vi obtener_orden.sh
+  413  vi crear_orden_qr.sh
+  414  vi paso2_v3.sh 
+  415  vi crear_orden_qr.sh
+  416  vi paso2_v3.sh 
+  417  vi crear_orden_qr.sh
+  418  ls -l|grep human
+  419  vi cajas_humano.json 
+  420  exit
+  421  cd /pendrive/www/qr
+  422  vi paso1.sh
+  423  ls -l
+  424  vi paso1.php
+  425  vi paso2_v2.sh
+  426  ./paso2_v2.sh
+  427  vi paso2_v2.sh
+  428  ./paso2_v2.sh
+  429  vi paso2_v2.sh
+  430  ./paso2_v2.sh
+  431  vi paso2_v2.sh
+  432  ls -l|grep -i humano
+  433  vi cajas_humano.json 
+  434  ls -l|grep -i caja
+  435  vi obtener_cajas.sh
+  436  vi obtener_caja.sh
+  437  vi obtener_cajas.sh
+  438  vi actualizar_cajas.sh
+  439  vi paso2_v2.sh
+  440  vi sponsor.txt
+  441  sudo snap install postman
+  442  sudo apt-get install snap
+  443  sudo snap install postman
+  444  sudo apt install snapd
+  445  sudo snap install postman
+  446  ls -l *.sh
+  447  vi paso2_v2.sh
+  448  ls -l|grep caja
+  449  vi cajas_humano.json 
+  450  vi obtener_caja.sh
+  451  ls -l|grep paso
+  452  vi paso2_v3
+  453  vi paso2_v3.sh
+  454  exit
+  455  df -l
+  456  sudo umount /media/raul/WD
+  457  sudo mount /dev/sdc1 /pendrive
+  458  cd /pendrive
+  459  cd www/mercadopago/
+  460  ls -l|grep usuario
+  461  vi ver_usuarios.sh
+  462  ls -l|grep usu
+  463  vi datos_usuario_creado.txt 
+  464  cd ../qr
+  465  ls -l
+  466  ./obtener_stores.sh stores.json
+  467  ./obtener_stores.sh> stores.json
+  468  ./humanizar_json.json stores
+  469  ls -l|grep human
+  470  vi stores.json
+  471  vi ../mercadopago/credenciales.txt 
+  472  cd ..
+  473  cd mercadopago/
+  474  ls -l
+  475  ls -l|more
+  476  rm bank*
+  477  ls -l|more
+  478  vi datos_usuario_creado.txt 
+  479  ls -l |grep tarj
+  480  vi numeros_tarj_credito.txt
+  481  vi credenciales.txt 
+  482  ls -l|grep -i usuar
+  483  vi datos_usuario_creado.txt 
+  484  ls -l|grep qr
+  485  cd ../qr
+  486  ls -l|grep qr
+  487  vi crear_orden_qr.sh 
+  488  ./crear_orden_qr.sh 
+  489  exit
+  490  cd /opt/ivm4200/Linux/
+  491  ./iVMS-4200 
+  492  exit
+  493  top
+  494  kill -9 6295
+  495  exit
+  496  df -l
+  497  sudo umount /media/raul/WD
+  498  sudo mount /dev/sdc1 /pendrive
+  499  cd /opt/ivm4200/Linux/
+  500  ./iVMS-4200 
+  501  df -l
+  502  sudo umount /media/raul/WD
+  503  sudo mount /dev/sdc1 /pendrive
+  504  cd /pendrive/profesional/
+  505  mkdir react
+  506  cd reac
+  507  cd react
+  508  npm install @syncfusion/ej2-react-grids
+  509  ls -l
+  510  cd node_modules/
+  511  ls -l
+  512  cd @syncfusion
+  513  ls -l
+  514  cd ..
+  515  cd react
+  516  npm install -g create-react-app
+  517  ls -l
+  518  create-react-app quickstart --scripts-version=react-scripts-ts
+  519  ls -l
+  520  cd quickstart
+  521  ls -l
+  522  npm install
+  523  ls -l
+  524  npm install @syncfusion/ej2-react-grids --save
+  525  ls -l
+  526  cd ..
+  527  create-react-app quickstart --scripts-version=react-scripts-ts
+  528  ls -l
+  529  rm -fR quickstart/
+  530  create-react-app quickstart --scripts-version=react-scripts-ts
+  531  cd quickstart/
+  532  npm install
+  533  npm install @syncfusion/ej2-react-grids --save
+  534  ls -l
+  535  cd node_modules/
+  536  ls -l
+  537  ls -l|more
+  538  find . -name App.css
+  539  find . -name src
+  540  cd src
+  541  ls -l
+  542  cd ..
+  543  npx create-react-app my-app
+  544  nvm ls
+  545  nvm use 13.6.0
+  546  nvm use 10.18.1
+  547  node -v
+  548  npx create-react-app my-app
+  549  ls -l
+  550  cd my-app
+  551  ls -l
+  552  cd src
+  553  ls -l
+  554  cd ..
+  555  ls -l
+  556  cd /opt/ivm4200/Linux/
+  557  ./iVMS-4200 
+  558  exit
+  559  cd /opt/ivm4200/Linux/
+  560  ./iVMS-4200 
+  561  cd /pendrive/profesional/react
+  562  cd pendrive
+  563  cd /pendrive
+  564  cd profesional
+  565  ls -l
+  566  df -l
+  567  sudo umount /media/raul/WD
+  568  sudo mount /dev/sdc1 /pendrive
+  569  cd /pendrive/profesional/react/
+  570  ls -
+  571  ls -l
+  572  git clone https://github.com/jbetancur/react-data-table-component.git
+  573  ls -l
+  574  cd react-data-table-component/
+  575  ls -l
+  576  cd src
+  577  ls -l
+  578  cd ..
+  579  npm install
+  580  npm start
+  581  npm start|more
+  582  npm build
+  583  npm install react-data-table-component styled-components
+  584  cd ..
+  585  npm install react-data-table-component styled-components
+  586  ls -lta
+  587  cd react-data-table-component/
+  588  npm start
+  589  npm build
+  590  npm start
+  591  ls -l
+  592  ls *.lock
+  593  rm yarn.lock
+  594  yarn start
+  595  yarn install
+  596  node -v
+  597  node ls
+  598  npm ls
+  599  nvm ls
+  600  node -v
+  601  node use 10.15.0
+  602  nvm use 10.15.0
+  603  nvm ls
+  604  nvm use 10.15.1
+  605  yarn install
+  606  yarn start
+  607  npm start
+  608  cd /pendrive/profesional/react/
+  609  cd prueba
+  610  npm install --save ag-grid-community ag-grid-react
+  611  cd src
+  612  ls -l
+  613  vi App.js
+  614  cd ..
+  615  find . -name *.jsx
+  616  cd src
+  617  vi App.jsx
+  618  rm App.jsx
+  619  vi App.js
+  620  cd ../..
+  621  cd prueba2/src
+  622  vi App.js
+  623  cd ../..
+  624  git clone https://github.com/samjulien/ag-grid-react-thinkster.git
+  625  cd ag-grid-react-thinkster/
+  626  ls -l
+  627  cd 01-getting-started/
+  628  ls -l
+  629  cd react-gs
+  630  ls -l
+  631  cd ..
+  632  ls -l
+  633  cd 08-cell-editing/
+  634  ls -l
+  635  cd starting-points/
+  636  ls -l
+  637  cd aggr-cell-editing/
+  638  ls -l
+  639  npm install
+  640  npm start
+  641  cd ../../..
+  642  ls -l
+  643  cd 08-cell-editing/
+  644  ls -l
+  645  cd starting-points/
+  646  npm start
+  647  ls -l
+  648  cd aggr-cell-editing/
+  649  ls -l
+  650  npm start
+  651  npm install
+  652  npm start
+  653  npm install --save ag-grid-community ag-grid-react
+  654  npm start
+  655  ls -l
+  656  cd src
+  657  ls -l
+  658  vi App.js
+  659  cd ..
+  660  cd ../../..
+  661  ls -l
+  662  cd 07-selection/
+  663  ls -l
+  664  cd starting-points/
+  665  ls -l
+  666  cd aggr-selection/
+  667  ls -l
+  668  npm install
+  669  npm start
+  670  cd ../../..
+  671  ls -l
+  672  cd 05-rows/
+  673  ls -l
+  674  cd starting-points/aggr-rows/
+  675  ls -l
+  676  cd src
+  677  ls -l
+  678  vi App.js
+  679  cd ../../../
+  680  cd ..
+  681  ls -l
+  682  cd 04-filters/
+  683  ls -l
+  684  cd starting-points/
+  685  ls -l
+  686  cd aggr-filters/
+  687  ls -l
+  688  npm install
+  689  npm start
+  690  exit
+  691  df -l
+  692  sudo umount /media/raul/WD
+  693  sudo mount /dev/sdc1 /pendrive
+  694  cd /pendrive/profesional/react
+  695  ls -l
+  696  cd react-data-table-component/
+  697  node -v
+  698  nvm use 10.15.1
+  699  vi package.json 
+  700  cd ..
+  701  create-react-app prueba
+  702  npm install -g create-react-app
+  703  create-react-app prueba
+  704  cd prueba
+  705  npm start
+  706  cd ..
+  707  create-react-app prueba2
+  708  cd prueba2
+  709  cd src
+  710  ls -l
+  711  vi App.js
+  712  npm start
+  713  npm install --save ag-grid-community ag-grid-react
+  714  npm install
+  715  npm start
+  716  ls -l
+  717  vi App.js
+  718  cd ..
+  719  cd ../prueba/src
+  720  ls -l
+  721  vi App.js
+  722  cd ../../prueba2/src
+  723  vi App.js
+  724  npm install
+  725  npm start
+  726  exit
+  727  cd /opt/ivm4200/Linux/
+  728  ./iVMS-4200 
+  729  exit
+  730  top
+  731  pwd
+  732  ./logproduccion 
+  733  cd /pendrive/profesional/react
+  734  ls -l 
+  735  tar zcvf prueba2 ./prueba2
+  736  tar zcvf prueba2 ./prueba2/*
+  737  tar zcvf prueba2.tar.gz ./prueba2/*
+  738  ls -l
+  739  rm prueba2.tar.gz 
+  740  tar zcvf prueba2.tar.gz ./prueba2
+  741  ls -l
+  742  rm prueba2.tar.gz 
+  743  history|grep prueba2
+  744  exit
+  745  df -l
+  746  sudo umount /media/raul/WD
+  747  sudo mount /dev/sdc1 /pendrive
+  748  cd /pendrive/profesional/react
+  749  ls -l
+  750  cd prueba2
+  751  ls -l
+  752  cd scr
+  753  cd src
+  754  ls -l
+  755  cd ..
+  756  ls -l
+  757  cd public
+  758  ls -l
+  759  vi index.html
+  760  cd ..
+  761  cd src
+  762  ls -l
+  763  vi App.js
+  764  npm start
+  765  node -v
+  766  set -o vi
+  767  history|grep nvm
+  768  nvm use 10.15.1
+  769  npm start
+  770  exit
+  771  cd /opt/ivm4200/Linux/
+  772  ./iVMS-4200 
+  773  cd /opt/ivm4200/Linux/
+  774  ./iVMS-4200 
+  775  set -o vi
+  776  cd
+  777  set -o vi
+  778  history|grep 200
+  779  ls -lta|more
+  780  history|grep 132
+  781  sshpass -p Qazx1234 ssh user@200.73.132.85
+  782  df -l
+  783  sudo umount /media/raul/WD
+  784  sudo mount /dev/sdc1 /pendrive
+  785  cd /opt/ivm4200/Linux/
+  786  ./iVMS-4200 
+  787  cd /pendrive/www/SIS/extranet/
+  788  ls -l
+  789  find . -name -mtime -10
+  790  find . -name -mtime 10
+  791  find . -name -mtime -10 -ls
+  792  find . -mtime -10 -ls
+  793  find . -mtime -20 -ls
+  794  cd
+  795  vi ./logproduccion 
+  796  ./logproduccion
+  797  cd /pendrive/www/SIS/extranet/web
+  798  diff emite_boleta.php /pendrive/borrar/emite_boleta.php
+  799  cd emite_boleta
+  800  diff procesa_boleta.php /pendrive/borrar/procesa_boleta.php
+  801  cd ..
+  802  vi emite_boleta.php
+  803  cd /opt/ivm4200/Linux/
+  804  ./iVMS-4200 
+  805  df -l
+  806  sudo umount /media/raul/WD
+  807  sudo mount /dev/sdc1 /pendrive
+  808  cd pendrive
+  809  ls -l
+  810  cd ..
+  811  clear
+  812  cd /pendrive
+  813  ls -l
+  814  cd /pendrive
+  815  cd www
+  816  ls -lta|grep -i sym
+  817  ls -lta|grep -i sim
+  818  cd ..
+  819  cd /opt/sqldeveloper
+  820  ./sqldeveloper.sh
+  821  exit
+  822  ./logproduccion 
+  823  exit
+  824  df -l
+  825  sudo umount /media/raul/WD
+  826  sudo mount /dev/sdc1 /pendrive
+  827  cd /pendrive/www
+  828  ls -l|grep -i sym
+  829  ls -lta|grep -i sym
+  830  cd prototipo_symfony5/
+  831  ls -l
+  832  cd src
+  833  ls -l
+  834  cd Controller/
+  835  ls -l
+  836  cd ..
+  837  cd public
+  838  ls -l
+  839  vi index.php
+  840  cd ..
+  841  ls -l
+  842  cd src
+  843  cd form
+  844  ls-l
+  845  ls -l
+  846  cd Form
+  847  ls -l
+  848  cd ..
+  849  ls -l|grep -i sym
+  850  ls -lta|grep -i sym
+  851  cd symf5
+  852  ls -l
+  853  cd ejemplo
+  854  ls -l
+  855  cd scr
+  856  cd src
+  857  ls -l
+  858  cd Controller
+  859  ls -l
+  860  vi TaskController.php 
+  861  ls -l
+  862  vi lookupsController.php 
+  863  cd ..
+  864  symfony server:start
+  865  sudo symfony server:start
+  866  php bin/console cache:clear --no-warmup --env=des
+  867  sudo symfony server:start
+  868  composer dump-autoload
+  869  sudo symfony server:start
+  870  console generate:bundle
+  871  ls -l
+  872  php ./bin/composer.phar update
+  873  sudo composer update
+  874  sudo symfony server:start
+  875  history
+  876  composer require symfony/form
+  877  sudo symfony server:start
+  878  history
+  879  php bin/console cache:clear
+  880  sudo symfony server:start
+  881  cd ..
+  882  pwd
+  883  ls -l
+  884  cd ejemplo2
+  885  ls -l
+  886  history
+  887  sudo symfony server:start
+  888  exit
+  889  sudo systemctl start mysql
+  890  mysql -uraul -praul
+  891  cd /pendrive/www/symf5/ejemplo
+  892  cd src
+  893  ls -l
+  894  cd Controller
+  895  ls -l
+  896  vi ejemploformController.php 
+  897  cd ..
+  898  ls -l
+  899  ls -l
+  900  cd ..
+  901  composer install
+  902  sudo composer install
+  903  ls -l
+  904  cd config
+  905  ls -l
+  906  vi services.yaml 
+  907  cd packages/
+  908  ls -l
+  909  cd test
+  910  ls -l
+  911  cd ..
+  912  grep -Ril raul
+  913  php bin/console config:dump-reference doctrine
+  914  composer require orm
+  915  vi .env
+  916  history
+  917  cd src
+  918  ls -l
+  919  cd Controller/
+  920  ls-l
+  921  ls -l
+  922  vi ejemploformController.php 
+  923  history
+  924  composer require debug
+  925  ls -l
+  926  vi ejemploformController.php 
+  927  cd ../../..
+  928  find . -iname new*
+  929  cd /pendrive/www/symf5
+  930  cd src
+  931  ls -l
+  932  cd ejemplo/src
+  933  ls -l
+  934  cd Controller
+  935  ls -l
+  936  vi ejemploformController.php 
+  937  cd ..
+  938  ls -l
+  939  cd Entity
+  940  ls -l
+  941  cd ../../..
+  942  find . -iname task.php
+  943  cd /opt/ivm4200/Linux/
+  944  ./iVMS-4200 
+  945  cd /pendrive/www/symf5/seguridad
+  946  ls -l
+  947  cd src
+  948  ls-l
+  949  ls -l
+  950  cd Entity/
+  951  ls -l
+  952  vi User.php
+  953  cd ..
+  954  cd Entity/
+  955  rm User.php
+  956  cd ..
+  957  php bin/console make:user
+  958  pwd
+  959  cd src
+  960  cd Entity/
+  961  ls -l
+  962  vi User.php
+  963  exit
+  964  sudo systemctl start mysql
+  965  exit
+  966  df -l
+  967  sudo umount /media/raul/WD
+  968  sudo mount /dev/sdc1 /pendrive
+  969  cd /pendrive/www/symf5
+  970  ls -l
+  971  history|grep -i create
+  972  history|grep -i composer
+  973  symfony new seguridad --full
+  974  cd seguridad
+  975  ls -l
+  976  cd config
+  977  ls -l
+  978  cd ..
+  979  find . -iname security.yml
+  980  php bin/console make:auth
+  981  exit
+  982  df -l
+  983  sudo umount /media/raul/WD
+  984  sudo mount /dev/sdc1 /pendrive
+  985  sudo systemctl start mysql
+  986  cd /pendrive/bases
+  987  ./0imp_bases
+  988  cd ..
+  989  cd www/symf5
+  990  cd seguridad2
+  991  cd scr/Entity
+  992  cd scr
+  993  cd src
+  994  cd Entity/
+  995  vi User.php 
+  996  history|more
+  997  history
+  998  cd /opt/ivm4200/Linux/
+  999  ./iVMS-4200 
+ 1000  exit
+ 1001  cd /opt/ivm4200/Linux/
+ 1002  ./iVMS-4200 
+ 1003  exit
+ 1004  cd /pendrive/www/symf5
+ 1005  symfony new seguridad2
+ 1006  symfony new seguridad3
+ 1007  cd seguridad3
+ 1008  php bin/console make:user
+ 1009  ls -l
+ 1010  php bin/console make:user
+ 1011  composer require security
+ 1012  php bin/console make:user
+ 1013  ./bin/console make:user
+ 1014  php bin/console make:user
+ 1015  cd ..
+ 1016  rm -fR ./seguridad3
+ 1017  cd seguridad2
+ 1018  ls -l
+ 1019  cd ..
+ 1020  symfony new seguridad3 full
+ 1021  history|grep symfony
+ 1022  symfony new seguridad3 --full
+ 1023  history
+ 1024  composer require security
+ 1025  cd seguridad3
+ 1026  composer require security
+ 1027  php bin/console make:user
+ 1028  exit
+ 1029  cd /pendrive/www/symf5
+ 1030  cd seguridad/
+ 1031  ls -lta|more
+ 1032  ls -lta|grep env
+ 1033  vi .env
+ 1034  find . -iname "*secur*"
+ 1035  find . -iname "*secur*.yml"
+ 1036  find . -iname "*secur*"|
+ 1037  find . -iname "*secur*"|more
+ 1038  cd config/packages/
+ 1039  vi security.yaml
+ 1040  cd ../../..
+ 1041  symfony new seguridad2 --full
+ 1042  cd seguridad2
+ 1043  composer require symfony/security-bundle
+ 1044  php bin/console make:user
+ 1045  cd config/
+ 1046  ls -l
+ 1047  cd packages/
+ 1048  ls -l
+ 1049  vi security.yaml 
+ 1050  cd ../..
+ 1051  cd src
+ 1052  cd Entity/
+ 1053  ls -l
+ 1054  vi User.php 
+ 1055  cd ..
+ 1056  greep -Ril UserPasswordEncoderInterface
+ 1057  grep -Ril UserPasswordEncoderInterface
+ 1058  cd vendor/symfony/security-bundle/Resources/config/
+ 1059  vi security.xml
+ 1060  cd ..
+ 1061  cd ../../..
+ 1062  cd ..
+ 1063  cd src
+ 1064  ls -l
+ 1065  cd Controller/
+ 1066  ls -l
+ 1067  cd ..
+ 1068  cd Repository/
+ 1069  ls -l
+ 1070  cd ..
+ 1071  history
+ 1072  exit
+ 1073  df -l
+ 1074  sudo umount /media/raul/WD
+ 1075  sudo mount /dev/sdc1 /pendrive
+ 1076  cd /pendrive/www/symf5/seguridad5
+ 1077  cd /pendrive/www/symf5/seguridad3
+ 1078  find . -iname "*userreposi*"
+ 1079  grep -Ril "*userreposi*" *.php
+ 1080  grep -Ril "*userreposi*" --include="*.php"
+ 1081  cd src
+ 1082  ls -l
+ 1083  cd Repository/
+ 1084  ls -l
+ 1085  cd ..
+ 1086  cd Security/
+ 1087  ls -l
+ 1088  vi User.php
+ 1089  vi UserProvider.php 
+ 1090  cd ..
+ 1091  cd Entity/
+ 1092  ls -l
+ 1093  cd ..
+ 1094  php bin/console make:user
+ 1095  cd src
+ 1096  cd Entity/
+ 1097  ls -l
+ 1098  vi User.php
+ 1099  cd ..
+ 1100  cd config/packages/
+ 1101  vi doctrine
+ 1102  ls -l
+ 1103  vi doctrine.yaml
+ 1104  cd ..
+ 1105  grep -Ril getUsername --include="*.php"
+ 1106  php bin/console make:migration
+ 1107  vi .env
+ 1108  mysql -uraul -praul
+ 1109  php bin/console make:migration
+ 1110  php bin/console make:fixtures
+ 1111  composer require orm-fixtures --dev
+ 1112  php bin/console make:fixtures
+ 1113  cd /opt/ivm4200/Linux/
+ 1114  ./iVMS-4200 
+ 1115  sudo systemctl start apache2
+ 1116  sudo systemctl start mysql
+ 1117  cd /opt/ivm4200/Linux/
+ 1118  ./iVMS-4200 
+ 1119  cd /pendrive
+ 1120  df -l
+ 1121  sudo umount /media/raul/WD
+ 1122  sudo mount /dev/sdc1 /pendrive
+ 1123  sudo systemctl start mysql
+ 1124  sudo systemctl start apache2
+ 1125  cd /opt/ivm4200/Linux/
+ 1126  ./iVMS-4200 
+ 1127  cd /pendrive/www/symf5
+ 1128  cd seguridad3
+ 1129  php bin/console doctrine:fixtures:load
+ 1130  ls -l
+ 1131  vi composer.json
+ 1132  php bin/console doctrine:fixtures:load
+ 1133  clear
+ 1134  php bin/console doctrine:fixtures:load
+ 1135  composer require --dev orm-fixtures
+ 1136  sudo composer require --dev orm-fixtures
+ 1137  php bin/console doctrine:fixtures:load
+ 1138  composer require --dev doctrine/doctrine-fixtures-bundle
+ 1139  php bin/console make:fixtures
+ 1140  exit
+ 1141  php -v
+ 1142  df -l
+ 1143  sudo umount /media/raul/WD
+ 1144  sudo mount /dev/sdc1 /pendrive
+ 1145  cd pendrive
+ 1146  ls -l
+ 1147  cd ..
+ 1148  cd pendrive
+ 1149  ls -l
+ 1150  cd www
+ 1151  exit
+ 1152  cd /opt/ivm4200/Linux/
+ 1153  ./iVMS-4200 
+ 1154  mysql
+ 1155  mysql -uraul -praul
+ 1156  sudo systemctl start mysql
+ 1157  mysql -uraul -praul
+ 1158  sudo systemctl start apache2
+ 1159  cd /pendrive/www/symf5
+ 1160  cp -R ./seguridad4 ./seguridad4.bak
+ 1161  ls-l
+ 1162  ls -l
+ 1163  cd seguridad4
+ 1164  php bin/console make:fixtures
+ 1165  composer require orm-fixtures --dev
+ 1166  history|grep load
+ 1167  php bin/console doctrine:fixtures:load
+ 1168  mysql -uraul -praul
+ 1169  php bin/console make:fixtures
+ 1170  history|grep load
+ 1171  php bin/console doctrine:fixtures:load
+ 1172  cd src
+ 1173  ls -l
+ 1174  cd DataFixtures/
+ 1175  vi BaseFixture.php
+ 1176  cd ..
+ 1177  history|grep load
+ 1178  php bin/console doctrine:fixtures:load
+ 1179  cd ..
+ 1180  php bin/console doctrine:fixtures:load
+ 1181  vi composer.json
+ 1182  composer require fzaninotto/faker --dev
+ 1183  php bin/console doctrine:fixtures:load
+ 1184  history|grep migration
+ 1185  php bin/console make:migration
+ 1186  history|grep migrate
+ 1187  php bin/console doctrine:migrations:migrate
+ 1188  php bin/console doctrine:fixtures:load
+ 1189  cd ..
+ 1190  rm -fR ./seguridad4.bak
+ 1191  cp -R ./seguridad ./seguridad4.bak
+ 1192  cd seguridad4
+ 1193  php bin/console make:controller
+ 1194  composer require twig
+ 1195  cd templates
+ 1196  ls -l
+ 1197  rmdir ./templates/
+ 1198  mkdir security
+ 1199  cd security/
+ 1200  vi login.html.twig
+ 1201  cd ../..
+ 1202  cd public
+ 1203  mkdir css
+ 1204  cd css
+ 1205  vi login.css
+ 1206  cd ..
+ 1207  symfony serve:start
+ 1208  symfony server:start
+ 1209  sudo symfony server:start
+ 1210  composer require asset
+ 1211  sudo symfony server:start
+ 1212  cd ..
+ 1213  cp -R ./seguridad4 ./seguridad4.formulario
+ 1214  cd seguridad4
+ 1215  php bin/console make:auth
+ 1216  cd src
+ 1217  cd Security/
+ 1218  ls -l
+ 1219  vi LoginFormAuthenticator.php 
+ 1220  cp LoginFormAuthenticator.php LoginFormAuthenticator.php.ori
+ 1221  vi LoginFormAuthenticator.php
+ 1222  vi LoginFormAuthenticator.php.ori
+ 1223  vi LoginFormAuthenticator.php
+ 1224  cd ..
+ 1225  cd config
+ 1226  cd packages/
+ 1227  ls -l
+ 1228  cp security.yaml security.yaml.ori
+ 1229  vi security.yaml
+ 1230  cd ../../..
+ 1231  cd seguridad4
+ 1232  sudo symfony serve:start
+ 1233  sudo symfony server:start
+ 1234  history >historia
