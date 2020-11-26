@@ -34,8 +34,8 @@ doctrine:
                     App:
                         is_bundle: false
                         type: annotation
-                        dir: '%kernel.project_dir%/src/Entity'
-                        prefix: 'App\Entity'
+                        dir: '%kernel.project_dir%/src/Entity/Mysql'
+                        prefix: 'App\Entity\Mysql'
                         alias: App
             trimu:
                 connection: trimu
@@ -44,6 +44,6 @@ doctrine:
                     App:
                         is_bundle: false
                         type: annotation
-                        dir: '%kernel.project_dir%/src/Entity'
-                        prefix: 'App\Entity'
+                        dir: '%kernel.project_dir%/src/Entity/Trimu'
+                        prefix: 'App\Entity\Trimu'
                         alias: App

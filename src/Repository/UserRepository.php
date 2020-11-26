@@ -2,7 +2,7 @@
 
 namespace App\Repository;
 
-use App\Entity\User;
+use App\Entity\Trimu\User;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
@@ -53,15 +53,41 @@ class UserRepository extends ServiceEntityRepository implements PasswordUpgrader
     }
     */
 
-    /*
-    public function findOneBySomeField($value): ?User
+    function validarPasswordTrimu( $password, $raw, $cuit )
     {
-        return $this->createQueryBuilder('u')
-            ->andWhere('u.exampleField = :val')
+        
+    $entityManager = $this->getEntityManager();
+    $sql = "SELECT pac_encripta.encripta_new('".$raw."') as RAW_ENCRYPTED FROM dual";
+    // $sql = "SELECT 1 FROM App\Entity\Trimu\User u WHERE Id :id";
+    //$query = $entityManager->createQuery( $sql )->setParameter('id',$cuit);
+    $query = $entityManager->getConnection()->prepare($sql);
+    $query->execute();
+    $res = $query->fetchAssociative();
+    return $res['RAW_ENCRYPTED']==$password;
+    }
+
+    public function findMio($value): ?User
+    {
+
+        //dd($this);
+        //$this->connection = $this->getManager('trimu');
+        /*return $this->getEntityManager('trimu')->createQueryBuilder('u')
+            ->andWhere('u.C_USUARIO = :val')
             ->setParameter('val', $value)
             ->getQuery()
-            ->getOneOrNullResult()
-        ;
+            ->getResult();*/
+        $em=$this->getEntityManager('trimu')->getConnection();
+        dd($this->_em);
+
+        //$em= $this->_em->getDoctrine()->getEntityMananger('trimu');
+
+
+        $qb=$this->createQueryBuilder("SELECT u FROM App\Entity\Tribu\Users u WHERE u.C_USUARIO= :C_USUARIO")
+            ->setParameter('C_USUARIO', $value);
+        dd($qb->getQuery());
+        return $qb->getQuery()->getResult();
+
+        //getOneOrNullResult()
     }
-    */
+    
 }

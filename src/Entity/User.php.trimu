@@ -1,0 +1,53 @@
+<?php
+
+namespace App\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * User
+ *
+ * @ORM\Table(name="Usuarios", uniqueConstraints={@ORM\UniqueConstraint(name="UNIQ_8D93D649F85E0677", columns={"id"})})
+ * @ORM\Entity
+ */
+class User
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="c_usuario", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="d_mail", type="string", length=180, nullable=false)
+     */
+    private $d_mail;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="username", type="string", length=180, nullable=false)
+     */
+    private $username;
+
+    /**
+     * @var json
+     *
+     * @ORM\Column(name="roles", type="json", nullable=false)
+     */
+    private $roles;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="c_clave", type="string", length=255, nullable=false)
+     */
+    private $password;
+
+
+}

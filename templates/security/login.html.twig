@@ -17,7 +17,7 @@
 
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" name="email" value="{{ last_username }}" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input name="cuit" value="{{ last_username }}" id="inputCuit" class="form-control" placeholder="cuit" required autofocus pattern="[0-9]{11,11}" title='Ingrese los 11 dígitos del CUIT'>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <div class="checkbox mb-3">

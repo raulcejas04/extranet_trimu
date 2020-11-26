@@ -14,13 +14,18 @@ use Symfony\Component\Security\Core\Security; //Security::
 use Symfony\Component\HttpFoundation\RedirectResponse; //redirect response
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface; //CSR Token
 use Symfony\Component\Security\Csrf\CsrfToken;
+use Symfony\Component\Security\Core\Exception\InvalidCsrfTokenException;
 use Symfony\Component\Security\Http\Util\TargetPathTrait;
 
 
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface; //password
+use App\Security\Encoder\MyCustomPasswordEncoder;
+use Symfony\Component\Security\Guard\PasswordAuthenticatedInterface;
+use App\Security\PasswordEncoderInterface;
 
 
-class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
+//class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
+class LoginFormAuthenticator extends AbstractFormLoginAuthenticator implements PasswordAuthenticatedInterface
 {
     use TargetPathTrait;
     
@@ -29,7 +34,9 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
     private $csrfTokenManager;
     private $passwordEncoder;
     
-    public function __construct(UserRepository $userRepository, RouterInterface $router, CsrfTokenManagerInterface $csrfTokenManager, UserPasswordEncoderInterface $passwordEncoder)
+    //UserPasswordEncoderInterface $passwordEncoder
+    public function __construct(UserRepository $userRepository, RouterInterface $router, 
+        CsrfTokenManagerInterface $csrfTokenManager, MyCustomPasswordEncoder $passwordEncoder)
     {
         $this->userRepository = $userRepository;
         $this->router = $router;
@@ -51,47 +58,49 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
             'email' => $request->request->get('email'),
             'password' => $request->request->get('password'),
         ];*/
-
+        //dd($request);
         $credentials = [
-            'email' => $request->request->get('email'),
+            'cuit' => $request->request->get('cuit'),
             'csrf_token' => $request->request->get('_csrf_token'),
             'password' => $request->request->get('password'),
         ];
         $request->getSession()->set(
             Security::LAST_USERNAME,
-            $credentials['email']
+            $credentials['cuit']
         );
 
         return $credentials;
 
     }
 
-    public function getUser($credentials, UserProviderInterface $userProvider)
+    public function getPassword($credentials): ?string
     {
-        // todo
-        //dd($credentials);
+        return $credentials['password'];
+    }
+
+    public function getUser($credentials, UserProviderInterface $userProvider )
+    {
+
         $token = new CsrfToken('authenticate', $credentials['csrf_token']);
         if (!$this->csrfTokenManager->isTokenValid($token)) {
             throw new InvalidCsrfTokenException();
         }
-
-        return $this->userRepository->findOneBy(['email' => $credentials['email']]);
+        $User=$this->userRepository->find($credentials['cuit']);
+        return $User;
     }
 
     public function checkCredentials($credentials, UserInterface $user)
     {
-        // todo
-        //dd($user);
-        //return true;
-        return $this->passwordEncoder->isPasswordValid($user, $credentials['password']);
+        return $this->userRepository->validarPasswordTrimu( $user->getPassword(), $credentials['password'], $user->getId() );
     }
 
     public function onAuthenticationSuccess(Request $request, TokenInterface $token, $providerKey)
     {
+        echo "entro";
         if ($targetPath = $this->getTargetPath($request->getSession(), $providerKey)) {
             return new RedirectResponse($targetPath);
         }
-        // todo
+
         //dd('Success');
         return new RedirectResponse($this->router->generate('app_homepage'));
     }

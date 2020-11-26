@@ -1,14 +1,19 @@
 security:
     encoders:
-        App\Entity\User:
-            algorithm: bcrypt
+        App\Entity\Trimu\User:
+            id: 'App\Security\Encoder\MyCustomPasswordEncoder'
+            #algorithm: auto
+            #app_encoder:
+            #para oracle
     # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
     providers:
         # used to reload user from session & other features (e.g. switch_user)
         app_user_provider:
             entity:
-                class: App\Entity\User
-                property: email
+                class: App\Entity\Trimu\User
+                property: cuit
+                manager_name: trimu
+                #https://symfony.com/doc/4.0/security/entity_provider.html
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
